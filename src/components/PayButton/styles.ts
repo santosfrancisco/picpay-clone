@@ -7,6 +7,7 @@ export const Container = styled(LinearGradient)`
   border-radius: 30px;
   align-items: center;
   justify-content: center;
+  margin-bottom: 16px;
 `;
 
 export const Label = styled.Text<{ focused: boolean }>`
